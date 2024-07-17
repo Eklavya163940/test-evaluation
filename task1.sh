@@ -2,9 +2,9 @@
  
 read -p "Enter time in hh:mm format: " time
  
-hour=$(echo $time | sed 's/:.*//')
-minute=$(echo $time | sed 's/.*://')
- 
+hour=${time:0:2}
+minute=${time:3:2}
+
 minute=$(($hour*60 + $minute))
  
 if [ $minute -ge 0 ] && [ $minute -le 360 ];
