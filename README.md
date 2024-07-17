@@ -1,0 +1,1 @@
+to create a shell-script that categorizes the time of day bases on user input (in 24hrs format). the script will prompt user to enter hour btw 00:00 and 23:59 and based on the input it will categorize the time into early morning, morning,afternoon or late night
